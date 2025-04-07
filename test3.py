@@ -27,14 +27,16 @@ def print_rabbit():
     for line in rabbit:
         print(line)
 
+def print_mygame():
+        print_rabbit
+    print("그림 출력 프로그램")
+    print("=====================")
+    print("1. 오리")
+    print("2. 곰")
+    print("3. 토끼")
+    print("0. 종료")
+    print("=====================")
 
-print("그림 출력 프로그램")
-print("=====================")
-print("1. 오리")
-print("2. 곰")
-print("3. 토끼")
-print("0. 종료")
-print("=====================")
 
 # 무한 반복
 while True:
